@@ -39,4 +39,21 @@ Starting a new repository
 
 I have made quite a few mistakes when I tried to do this so if I can help so that you do not make the same mistakes, then I have done good! Eventually you will create a directory on your own computer where you will host all the files that you want to be tracked with GitHub. But before you do that, go to your GitHub page (you will have signed in and created your own page above), and click on repositories at the top of your page like below.
 
-![alt text](https://github.com/francoisbirgand/Github-and-markdown-instructions/raw/master/images/GitHub_main_page.png "myGitHub page")
+![alt text](https://github.com/francoisbirgand/Github-and-markdown-instructions/raw/master/images/GitHub_main_page.png "FB_GitHub page")
+
+When you do this, you should get to a page that looks just like this:
+
+![alt text](https://github.com/francoisbirgand/Github-and-markdown-instructions/raw/master/images/GitHub_repos_page.png "Repos GitHub page")
+
+Click on the green "New" icon and you should get to a page that looks just like this. Type the name of your repository. You will see that GitHub automatically adds dashes for spaces in the name. In fact, in GitHub and markdown, it seems to be better to use "-" instead of "\_".
+
+![alt text](https://github.com/francoisbirgand/Github-and-markdown-instructions/raw/master/images/GitHub_newrepos_page.png "New Repos GitHub page")
+
+The initial page will give you something that will look like this: ![alt text](https://github.com/francoisbirgand/Github-and-markdown-instructions/raw/master/images/Git_initial_instructions.png "Initial instructions of new repository page")
+
+Now, and only now, is the time for you to create a directory where all your files will be locally stored. Make sure that there are no files in this directory, yet. I made that mistake several times and I spent lots of time to find the instructions to correct for this. If you do things in this order, it should really make things smooth.
+
+Now, it is time to feel like you know a bit about computers (I do not, as you all already know...!): time to navigate through your computer using the cmd or terminal.
+
+-   in windows, click on the Windows icon at the bottom left corner of your screen and type "cmd" in the blank text box at the bottom
+-   on Mac, simultaneously press the cmd-space keys, and type "terminal" in the pop-up window.
