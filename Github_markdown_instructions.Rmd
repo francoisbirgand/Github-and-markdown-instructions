@@ -26,6 +26,8 @@ Now, after I spent quite a bit of time trying to understand the master, branches
 I realize that this way to navigate through the directories of your computer is not something you have been taught.  Well, in the 1990s in BAE, we had to learn Unix, so I happen to be somewhat familiar with the process.  There is really nothing to be afraid of.  Once you start a little bit, you will be glad you started this.
 
 All this to say that I think that you should install *Git* on your computer.  [This website](https://gist.github.com/derhuerst/1b15ff4652a867391f03) has the directions on how to do it.  This is what I did and it worked for me.
+* [other detailed instructions for windows](http://lauraliparulo.altervista.org/github-working-with-the-git-command-line-on-windows/)
+* [best instructions for installation for mac](https://github.com/blog/1510-installing-git-from-github-for-mac)
 
 ## Follow tutorials on the web
 
@@ -36,5 +38,11 @@ I think there are two complementary ways to learn how all this works:
   - [this one goes a little further](https://www.youtube.com/watch?v=HVsySz-h9r4) and is quite good
   - Just type in google "GitHub beginner Youtube" and you will only have 27 million hits...!
 * By trying to load real files for your work.  This is where all the things you have seen will matter
+
+## Starting a new repository
+
+I have made quite a few mistakes when I tried to do this so if I can help so that you do not make the same mistakes, then I have done good!  Eventually you will create a directory on your own computer where you will host all the files that you want to be tracked with GitHub.  But before you do that, go to your GitHub page (you will have signed in and created your own page above), and click on repositories at the top of your page like below.
+
+![alt text](https://github.com/francoisbirgand/Github-and-markdown-instructions/blob/master/GitHub_main_page.png "myGitHub page")
 
 
