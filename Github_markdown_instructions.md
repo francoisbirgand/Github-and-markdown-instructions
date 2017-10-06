@@ -39,4 +39,4 @@ Starting a new repository
 
 I have made quite a few mistakes when I tried to do this so if I can help so that you do not make the same mistakes, then I have done good! Eventually you will create a directory on your own computer where you will host all the files that you want to be tracked with GitHub. But before you do that, go to your GitHub page (you will have signed in and created your own page above), and click on repositories at the top of your page like below.
 
-![alt text](https://github.com/francoisbirgand/Github-and-markdown-instructions/blob/master/GitHub_main_page.png "myGitHub page")
+![alt text](https://github.com/francoisbirgand/Github-and-markdown-instructions/raw/master/images/GitHub_main_page.png "myGitHub page")
