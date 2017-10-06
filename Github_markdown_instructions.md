@@ -3,6 +3,13 @@ This a list of Github, R markdown, bookdown, instructions and websites
 François Birgand
 05/10/2017
 
+Moving towards Markdown and Github
+----------------------------------
+
+My dear collaborators, I am convinced that within a very near future, all our research will have to be consigned, written, and published using GitHub as a plateform to host, review, and communicate our research material, and that markdown, R markdown in particular, bookdown, etc. are going to be among the tools we will all need to master to let others know about our research. I am convinced that if we use these tools well, they will largely simplify our work and make it a lot better.
+
+There is a bit of a learning curve and I went through it myself this summer 2017 and I would like to share some of the things I have found with you, hoping to make the learning curve slope a bit less steep for you. So I have started assembling material that, hopefully, will help. However, there is no way around it: you are the ones who will need to read, watch, install, and learn. I cannot do it for you. And you I know you will, just like me, be glad you did.
+
 Getting started with GitHub
 ---------------------------
 
