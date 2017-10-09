@@ -8,7 +8,7 @@ Moving towards Markdown and Github
 
 My dear collaborators, I am convinced that within a very near future, all our research will have to be consigned, written, and published using GitHub as a plateform to host, review, and communicate our research material, and that markdown, R markdown in particular, bookdown, etc. are going to be among the tools we will all need to master to let others know about our research. I am convinced that if we use these tools well, they will largely simplify our work and make it a lot better.
 
-There is a bit of a learning curve and I went through it myself this summer 2017 and I would like to share some of the things I have found with you, hoping to make the learning curve slope a bit less steep for you. So I have started assembling material that, hopefully, will help. However, there is no way around it: you are the ones who will need to read, watch, install, and learn. I cannot do it for you. And you I know you will, just like me, be glad you did.
+There is a bit of a learning curve and I went through it myself this summer 2017 and I would like to share some of the things I have found with you, hoping to make the learning curve slope a bit less steep for you. So I have started assembling material that, hopefully, will help. However, there is no way around it: you are the ones who will need to read, watch, install, and learn. I cannot do it for you. And I know that you will, just like me, be glad you did.
 
 Getting started with GitHub
 ---------------------------
@@ -30,7 +30,7 @@ I realize that this way to navigate through the directories of your computer is 
 
 All this to say that I think that you should install *Git* on your computer. [This website](https://www.atlassian.com/git/tutorials/install-git) has the directions on how to do it. This is what I did and it worked for me.
 
--   [other detailed instructions for windows](http://lauraliparulo.altervista.org/github-working-with-the-git-command-line-on-windows/)
+-   [other detailed instructions for windows](http://lauraliparulo.altervista.org/github-working-with-the-git-command-line-on-windows/) I think you want to choose 'git bash' during installation. It is the command line but a little better than the bare one.
 -   [best instructions for installation for mac](https://github.com/blog/1510-installing-git-from-github-for-mac)
 
 Follow tutorials on the web
@@ -42,18 +42,18 @@ I think there are two complementary ways to learn how all this works:
 -   [I watched this one](https://www.youtube.com/watch?v=SWYqp7iY_Tc) and although it is basic it makes things rather clear
 -   [this one goes a little further](https://www.youtube.com/watch?v=HVsySz-h9r4) and is quite good
 -   Just type in google "GitHub beginner Youtube" and you will only have 27 million hits...!
--   By trying to load real files for your work. This is where all the things you have seen will matter
+-   AND By trying to load real files for your work. This is where all the things you have seen will matter
 
 Starting a new repository
 -------------------------
 
 ### First steps: in your GitHub main page
 
-I have made quite a few mistakes when I tried to do this so if I can help so that you do not make the same mistakes, then I have done good! Eventually you will create a directory on your own computer where you will host all the files that you want to be tracked with GitHub. But before you do that, go to your GitHub page (you will have signed in and created your own page above), and click on repositories at the top of your page like below.
+I have made quite a few mistakes when I tried to do this so if I can help such that you do not make the same mistakes, then I will have done something good! Eventually you will create a directory on your own computer where you will host all the files that you want to be tracked with GitHub. But before you do that, go to your GitHub page (you will have signed in and created your own page above), and click on repositories at the top of your page like below (just right of the 'overview' tab).
 
 ![alt text](https://github.com/francoisbirgand/Github-and-markdown-instructions/raw/master/images/GitHub_main_page.png "FB_GitHub page")
 
-When you do this, you should get to a page that looks just like this:
+When you do this, you should get to a page that looks just like this:<br/>
 
 ![alt text](https://github.com/francoisbirgand/Github-and-markdown-instructions/raw/master/images/GitHub_repos_page.png "Repos GitHub page")
 
@@ -61,18 +61,18 @@ Click on the green "New" icon and you should get to a page that looks just like 
 
 ![alt text](https://github.com/francoisbirgand/Github-and-markdown-instructions/raw/master/images/GitHub_newrepos_page.png "New Repos GitHub page")
 
-The initial page will give you something that will look like this: ![alt text](https://github.com/francoisbirgand/Github-and-markdown-instructions/raw/master/images/Git_initial_instructions.png "Initial instructions of new repository page") **Do not close** this webpage! There are very useful code in there that you will need later. But first, go to the next step.
+The initial page will give you something that will look like this:<br/> ![alt text](https://github.com/francoisbirgand/Github-and-markdown-instructions/raw/master/images/Git_initial_instructions.png "Initial instructions of new repository page")<br/> **Do not close** this webpage! There are very useful code in there that you will need later. But first, go to the next step.
 
 ### Second steps: in the command lines
 
-Now, and only now, is the time for you to create a directory where all your files will be locally stored. Make sure that there are no files in this directory, yet. I made that mistake several times and I spent lots of time to find the instructions to correct for this. If you do things in this order, it should really make things smooth. Actually, after I rewatched some of the videos, it might be possible to have files in a directory in the end, but really I am not sure.
+Now, and only now, is the time for you to create a directory where all your files will be locally stored. Make sure that there are no files in this directory, yet. I made that mistake several times and I spent lots of time to find the instructions to correct for this. If you do things in this order, it should really make things smooth. Actually, after I rewatched some of the videos, it might be possible to have files in a directory in the end, but really I am not sure as my experience is that things will stop working if you do...
 
 #### Background instructions on how to navigate your computer
 
 Now, it is time to feel like you know a bit about computers (I do not, as you all already know...!): time to navigate through your computer using the cmd or terminal.
 
--   in Windows, click on the Windows icon at the bottom left corner of your screen and type "cmd" in the blank text box at the bottom
--   on Mac, simultaneously press the cmd-space keys, and type "terminal" in the pop-up window.
+-   in Windows, click on the Windows icon at the bottom left corner of your screen and type "cmd" in the blank text box at the bottom. If you installed 'git bash', just start it. It should be listed among your programs, or just type 'git bash' in the Windows text box.
+-   on Mac, simultaneously press the cmd-space keys, and type "terminal" in the pop-up window. You also have access to all applications by pressing F4.
 
 Now it is time to navigate your directory tree with the command line. I really think that the commands you will need for this are extremely simple. For both Windows and Mac, the command that you will most use is "cd", for "change directory". To go one level before (or upstream in the directory tree), you just need to type "cd .." + enter. If you need to go two directories backward, type "cd ../..".
 
@@ -81,21 +81,21 @@ But where are we in the tree? The commands vary here:
 -   For Windows: "dir" + enter (for "directory")
 -   for Mac OS: "ls" + enter (for "list")
 
-These commands will list all the files and directory that are in the current directory. Now if you need to navigate forward from your current directory to a directory called "example\_directory", type "cd example\_directory". A very nice feature with the command lines is that you do not have to type all the word "example\_directory", but the first one or two letters and then press the "tab" key, and it will fill the name automatically as long as it is unique. Sometimes, you have files with the same name with different extensions, then it will fill until it can and then you have to add other letters and press "tab" again to make a unique possibility.
+These commands will list all the files and directory that are in the current directory. Now if you need to navigate forward from your current directory to a directory called "example\_directory", type "cd example\_directory". A very nice feature with the command lines is that you do not have to spell all the word "example\_directory", but the first one or two letters and then press the "tab" key, and it will fill the name automatically as long as it is unique. Sometimes, you have files with the same name with different extensions, then it will fill until it can and then you have to add other letters and press "tab" again to make a unique possibility.
 
 -   [More details on using the Windows command lines](https://www.digitalcitizen.life/command-prompt-how-use-basic-commands) at this page
 -   [More details on using the Terminal command lines on mac](https://github.com/0nn0/terminal-mac-cheatsheet) at this page
 
 #### The initial command lines to start a repository from your computer's end
 
-OK, so by now, you should have started a repository from your browser. Navigate to the directory where your files are going to be stored and "pushed" to GitHub. Remember, this directory should be **empty**. It is now time to copy and paste the text under "... or create a new repository on the command line" that came . Normally now, you are set up and you are good to go!! It did take me a while to get there because I did not follow all the good instructions and burnt steps, etc. Hopefully this worked fo you a bit more smoothly...!
+OK, so by now, you should have started a repository from your browser. Navigate to the directory where your files are going to be stored and "pushed" to GitHub. Remember, this directory should be **empty**. It is now time to copy and paste the text under "... or create a new repository on the command line" that came . Normally now, you are set up and you are good to go!! It did take me a while to get there because I did not follow all the good instructions and burnt steps, etc. Hopefully this worked for you a bit more smoothly...!
 
 The main commands that you will use in Git
 ------------------------------------------
 
-On the [GitHub workflow](https://guides.github.com/introduction/flow/) page, they insist (rightfully so), on the importance of "branches" compare to "master". This is the prerequisite for working on a collaborative basis. Now, at the time I am writing this post, I have not needed to use branches, yet. I suggest that as a first step, you do need to either, just yet.
+On the [GitHub workflow](https://guides.github.com/introduction/flow/) page, they insist (rightfully so), on the importance of "branches" compare to "master". This is the prerequisite for working on a collaborative basis. Now, at the time I am writing this post, I have not needed to use branches, yet. I suggest that as a first step, you need not to either, just yet.
 
-At this introductory stage, you really less than 10 commands. I think [this page](http://rogerdudler.github.io/git-guide/) really has all you need here! I am going to paraphrase this with I have used.
+At this introductory stage, you really need less than 10 commands. I think [this page](http://rogerdudler.github.io/git-guide/) really has all you need here! I am going to paraphrase this with I have used.
 
 OK, so you want to have your file published in Github. The first thing you need to do is *add* the files in the 'adding batch' or 'stage area' using: \* git add
 
@@ -115,7 +115,7 @@ Then you will want to *commit* these files that you want to upload. The idea her
 
     $ git commit -m "this is the reason for this commit"
 
-You can just do "git commit" with no extension but it will send you to some very weird screen (you will have to press insert, type your message and then press esp, and then type :wq, as you might have seen in the videos). so the synthax '-m "your message"' (-m for 'message') is thus the way to go. The content of the message is particularly needed when the project is a collaborative work. If you are the only one *committing*, then you just want to have a history of what you have done. But for thesis editing, I think we will want to be precise in there.
+You can just do "git commit" with no extension but it will send you to some very weird screen (you will have to press insert, type your message and then press esc, and then type ':wq', as you might have seen in the videos). so the synthax '-m "your message"' (-m for 'message') is thus the way to go. The content of the message is particularly needed when the project is a collaborative work. If you are the only one *committing*, then you just want to have a history of what you have done. But for thesis editing, I think we will want to be precise in there.
 
 Then you want to *push* what you have committed by just typing
 
